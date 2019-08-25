@@ -2,29 +2,29 @@
   "velocity": "6",
   "animation_velocity": "15",
   "hp": "4",
-  "InitialPosition": {
+  "initial_position": {
     "x": "100",
     "y": "500"
   },
-  "Sounds": {
+  "sounds": {
     "hit": "sounds/hit.ogg"
   },
-  "LifeBar": {
+  "life_bar": {
     "x": "0",
     "y": "0",
     "width": "1920",
     "height": "8",
-    "Color":
+    "color":
     {
       "red": "65",
       "green": "255",
       "blue": "65"
     }
   },
-  "Sprites": [
+  "sprites": [
     {
       "state": "start",
-      "Sprite": [
+      "sprite": [
         {
           "path": "ship01.png"
         },
@@ -35,14 +35,14 @@
     },
     {
       "state": "destroyed",
-      "Sprite": [
+      "sprite": [
         {
           "path": "ship01.png"
         }
       ]
     }
   ],
-  "Hitboxes": [
+  "hitboxes": [
     {
       "x": "-10",
       "y": "-5",
@@ -65,33 +65,33 @@
       "angle": "-60"
     }
   ],
-  "Shield OPTIONAL": {
+  "shield OPTIONAL": {
     "sprite": "shield.png",
     "max_shield": "500",
     "shield_fade": "40",
     "proration": "40"
   },
-  "Charge OPTIONAL": {
+  "charge OPTIONAL": {
     "sprite": "charge.png",
     "max_charge": "300",
     "charge_velocity": "1",
     "x": "-40",
     "y": "0"
   },
-  "Parry OPTIONAL": {
+  "parry OPTIONAL": {
     "duration": "60",
     "sound": "sounds/parry.ogg",
-    "Parrying": {
+    "parrying": {
       "sprite": "parrying.png",
       "x": "-40",
       "y": "-35"
     },
-    "Parryed": {
+    "parryed": {
       "sprite": "parryed.png",
       "x": "-40",
       "y": "-35"
     },
-    "Hitboxes": [
+    "hitboxes": [
       {
         "x": "-21",
         "y": "-25",

@@ -1,5 +1,5 @@
 {
-  "Type":
+  "type":
   [
     {
       "name": "A",
@@ -7,7 +7,7 @@
         {
           "amount": "36",
           "angle": "10",
-          "Pattern": {
+          "pattern": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "offset_x": "-60",
@@ -22,7 +22,7 @@
           "startup": "1",
           "angle": "10",
           "amount": "50",
-          "Pattern": {
+          "pattern": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "offset_x": "-60",
@@ -37,7 +37,7 @@
     },
     {
       "name": "B",
-      "Pattern":
+      "pattern":
       {
         "bullet": "bullet a",
         "animation_velocity": "6",
@@ -52,7 +52,7 @@
         {
           "angle": "10",
           "amount": "36",
-          "Pattern": [
+          "pattern": [
             {
               "bullet": "bullet a",
               "animation_velocity": "6",
@@ -78,7 +78,7 @@
         {
           "velocity": "1",
           "amount": "5",
-          "Pattern": [
+          "pattern": [
             {
               "bullet": "bullet a",
               "animation_velocity": "6",
@@ -134,7 +134,7 @@
           "amount": "30",
           "startup": "3",
           "angle": "1",
-          "Pattern": {
+          "pattern": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "velocity": "6",
@@ -148,7 +148,7 @@
           "amount": "30",
           "startup": "3",
           "angle": "-1",
-          "Pattern": {
+          "pattern": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "velocity": "6",
@@ -161,7 +161,7 @@
         },
         {
           "amount": "1",
-          "Pattern": {
+          "pattern": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "velocity": "4",
@@ -177,7 +177,7 @@
       "Repeat": [
         {
           "amount": "1",
-          "Pattern": {
+          "pattern": {
             "additional_player_velocity_x": "3",            
             "bullet": "bullet a",
             "animation_velocity": "6",
@@ -189,7 +189,7 @@
           }
         }
       ],
-      "Pattern": {
+      "pattern": {
         "additional_player_velocity_x": "4",
         "bullet": "bullet a",
         "animation_velocity": "6",

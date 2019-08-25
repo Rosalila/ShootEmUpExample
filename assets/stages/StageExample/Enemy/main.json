@@ -2,29 +2,29 @@
   "velocity": "0",
   "animation_velocity": "12",
   "hp": "5000",
-  "InitialPosition": {
+  "initial_position": {
     "x": "1600",
     "y": "400"
   },
-  "Sounds": {
+  "sounds": {
     "hit": "sounds/hit.ogg"
   },
-  "LifeBar": {
+  "life_bar": {
     "x": "1920",
     "y": "1072",
     "width": "-1920",
     "height": "8",
-    "Color":
+    "color":
     {
       "red": "255",
       "green": "65",
       "blue": "65"
     }
   },
-  "Sprites": [
+  "sprites": [
     {
       "state": "start",
-      "Sprite": [
+      "sprite": [
         {
           "path": "enemy.png"
         }
@@ -32,14 +32,14 @@
     },
     {
       "state": "destroyed",
-      "Sprite": [
+      "sprite": [
         {
           "path": "enemy.png"
         }
       ]
     }
   ],
-  "Hitboxes": [
+  "hitboxes": [
     {
       "x": "-100",
       "y": "-200",

@@ -1,14 +1,14 @@
 {
-  "Bounds": {
+  "bounds": {
     "x1": "0",
     "y1": "0",
     "x2": "1920",
     "y2": "1080"
   },
-  "Misc": {
+  "misc": {
     "velocity": "0"
   },
-  "BackLayer": [
+  "back_layer": [
     {
       "velocity_x": "0",
       "x": "0",

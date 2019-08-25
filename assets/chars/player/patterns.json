@@ -1,9 +1,9 @@
 {
-"Type":
+"type":
 [
   {
     "name": "primary",
-    "Pattern": [
+    "pattern": [
       {
         "bullet": "My Bullet",
         "animation_velocity": "5",
@@ -21,7 +21,7 @@
   },
   {
     "name": "secondary",
-    "Pattern": [
+    "pattern": [
       {
         "bullet": "My Bullet",
         "animation_velocity": "5",

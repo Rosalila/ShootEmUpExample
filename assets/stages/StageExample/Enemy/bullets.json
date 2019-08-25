@@ -1,26 +1,26 @@
 {
-"Bullet":
+"bullet":
 [
   {
     "name": "bullet a",
     "damage": "1",
     "width": "20",
     "height": "6",
-    "Sound": {
+    "sound": {
       "channel": "-1",
       "path": "sounds/basic.ogg"
     },
-    "Images": [
+    "images": [
       {
         "path": "bullet.png"
       }
     ],
-    "OnHitImages": [
+    "on_hit_images": [
       {
         "path": "on_hit.png"
       }
     ],
-    "Hitbox": [
+    "hitbox": [
       {
         "x": "-10",
         "y": "-3",
