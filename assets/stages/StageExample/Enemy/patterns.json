@@ -3,11 +3,11 @@
   [
     {
       "name": "A",
-      "Repeat": [
+      "repeat": [
         {
           "amount": "36",
           "angle": "10",
-          "pattern": {
+          "patterns": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "offset_x": "-60",
@@ -22,7 +22,7 @@
           "startup": "1",
           "angle": "10",
           "amount": "50",
-          "pattern": {
+          "patterns": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "offset_x": "-60",
@@ -37,7 +37,7 @@
     },
     {
       "name": "B",
-      "pattern":
+      "patterns":
       {
         "bullet": "bullet a",
         "animation_velocity": "6",
@@ -48,11 +48,11 @@
         "ac_frequency": "4",
         "aim_player": "yes"
       },
-      "Repeat": [
+      "repeat": [
         {
           "angle": "10",
           "amount": "36",
-          "pattern": [
+          "patterns": [
             {
               "bullet": "bullet a",
               "animation_velocity": "6",
@@ -78,7 +78,7 @@
         {
           "velocity": "1",
           "amount": "5",
-          "pattern": [
+          "patterns": [
             {
               "bullet": "bullet a",
               "animation_velocity": "6",
@@ -129,12 +129,12 @@
     },
     {
       "name": "C",
-      "Repeat": [
+      "repeat": [
         {
           "amount": "30",
           "startup": "3",
           "angle": "1",
-          "pattern": {
+          "patterns": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "velocity": "6",
@@ -148,7 +148,7 @@
           "amount": "30",
           "startup": "3",
           "angle": "-1",
-          "pattern": {
+          "patterns": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "velocity": "6",
@@ -161,7 +161,7 @@
         },
         {
           "amount": "1",
-          "pattern": {
+          "patterns": {
             "bullet": "bullet a",
             "animation_velocity": "6",
             "velocity": "4",
@@ -174,10 +174,10 @@
     },
     {
       "name": "D",
-      "Repeat": [
+      "repeat": [
         {
           "amount": "1",
-          "pattern": {
+          "patterns": {
             "additional_player_velocity_x": "3",            
             "bullet": "bullet a",
             "animation_velocity": "6",
@@ -189,7 +189,7 @@
           }
         }
       ],
-      "pattern": {
+      "patterns": {
         "additional_player_velocity_x": "4",
         "bullet": "bullet a",
         "animation_velocity": "6",

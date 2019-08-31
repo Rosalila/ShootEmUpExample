@@ -4,23 +4,21 @@
   {
     "name": "My Bullet",
     "damage": "7",
-    "width": "20",
-    "height": "6",
     "sound OPTIONAL": {
       "channel": "-1",
       "path": "sounds/shoot.ogg"
     },
-    "images": [
+    "sprites": [
       {
         "path": "bullet.png"
       }
     ],
-    "on_hit_images": [
+    "on_hit_sprites": [
       {
         "path": "on_hit.png"
       }
     ],
-    "hitbox": [
+    "hitboxes": [
       {
         "x": "-10",
         "y": "-3",

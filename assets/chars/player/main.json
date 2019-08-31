@@ -21,10 +21,10 @@
       "blue": "65"
     }
   },
-  "sprites": [
+  "states": [
     {
-      "state": "start",
-      "sprite": [
+      "name": "start",
+      "sprites": [
         {
           "path": "ship01.png"
         },
@@ -34,8 +34,8 @@
       ]
     },
     {
-      "state": "destroyed",
-      "sprite": [
+      "name": "destroyed",
+      "sprites": [
         {
           "path": "ship01.png"
         }

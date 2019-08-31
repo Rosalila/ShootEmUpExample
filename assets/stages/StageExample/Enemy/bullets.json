@@ -4,23 +4,21 @@
   {
     "name": "bullet a",
     "damage": "1",
-    "width": "20",
-    "height": "6",
     "sound": {
       "channel": "-1",
       "path": "sounds/basic.ogg"
     },
-    "images": [
+    "sprites": [
       {
         "path": "bullet.png"
       }
     ],
-    "on_hit_images": [
+    "on_hit_sprites": [
       {
         "path": "on_hit.png"
       }
     ],
-    "hitbox": [
+    "hitboxes": [
       {
         "x": "-10",
         "y": "-3",

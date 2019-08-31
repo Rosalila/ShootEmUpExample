@@ -21,18 +21,18 @@
       "blue": "65"
     }
   },
-  "sprites": [
+  "states": [
     {
-      "state": "start",
-      "sprite": [
+      "name": "start",
+      "sprites": [
         {
           "path": "enemy.png"
         }
       ]
     },
     {
-      "state": "destroyed",
-      "sprite": [
+      "name": "destroyed",
+      "sprites": [
         {
           "path": "enemy.png"
         }
