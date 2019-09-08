@@ -1,12 +1,12 @@
 {
-  "type":
+  "attacks":
   [
     {
       "name": "A",
       "repeat": [
         {
-          "amount": "36",
-          "angle": "10",
+          "amount": "18",
+          "angle": "20",
           "patterns": {
             "bullet": "bullet a",
             "animation_velocity": "6",
@@ -14,7 +14,7 @@
             "offset_y": "61",
             "velocity": "3",
             "max_velocity": "14",
-            "cooldown": "60",
+            "cooldown": "120",
             "aim_player": "yes"
           }
         },
@@ -29,7 +29,7 @@
             "offset_y": "61",
             "velocity": "5",
             "max_velocity": "14",
-            "cooldown": "60",
+            "cooldown": "80",
             "aim_player": "no"
           }
         }
@@ -37,40 +37,29 @@
     },
     {
       "name": "B",
-      "patterns":
-      {
-        "bullet": "bullet a",
-        "animation_velocity": "6",
-        "velocity": "3",
-        "max_velocity": "14",
-        "cooldown": "60",
-        "angle_change": "1",
-        "ac_frequency": "4",
-        "aim_player": "yes"
-      },
       "repeat": [
         {
-          "angle": "10",
-          "amount": "36",
+          "angle": "15",
+          "amount": "24",
           "patterns": [
             {
               "bullet": "bullet a",
               "animation_velocity": "6",
-              "velocity": "3",
+              "velocity": "7",
               "max_velocity": "14",
               "cooldown": "60",
               "angle_change": "1",
-              "ac_frequency": "4",
+              "ac_frequency": "6",
               "aim_player": "yes"
             },
             {
               "bullet": "bullet a",
               "animation_velocity": "6",
-              "velocity": "3",
+              "velocity": "7",
               "max_velocity": "14",
               "cooldown": "60",
               "angle_change": "-1",
-              "ac_frequency": "4",
+              "ac_frequency": "6",
               "aim_player": "yes"
             }
           ]
@@ -129,6 +118,17 @@
     },
     {
       "name": "C",
+      "patterns": [
+        {
+          "bullet": "bullet a",
+          "animation_velocity": "6",
+          "velocity": "4",
+          "max_velocity": "14",
+          "aim_player": "no",
+          "cooldown": "6",
+          "random_angle": "360"
+        }
+      ],
       "repeat": [
         {
           "amount": "30",
@@ -157,17 +157,6 @@
             "cooldown": "300",
             "aim_player": "no",
             "angle": "195"
-          }
-        },
-        {
-          "amount": "1",
-          "patterns": {
-            "bullet": "bullet a",
-            "animation_velocity": "6",
-            "velocity": "4",
-            "max_velocity": "14",
-            "aim_player": "no",
-            "random_angle": "360"
           }
         }
       ]

@@ -1,11 +1,11 @@
 {
-"bullet":
+"bullets":
 [
   {
     "name": "bullet a",
     "damage": "1",
     "sound": {
-      "channel": "-1",
+      "channel": "3",
       "path": "sounds/basic.ogg"
     },
     "sprites": [
@@ -20,10 +20,10 @@
     ],
     "hitboxes": [
       {
-        "x": "-10",
-        "y": "-3",
-        "width": "20",
-        "height": "6",
+        "x": "-40",
+        "y": "-10",
+        "width": "80",
+        "height": "20",
         "angle": "0"
       }
     ]

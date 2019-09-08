@@ -8,7 +8,7 @@
   "misc": {
     "velocity": "0"
   },
-  "back_layer": [
+  "back_layers": [
     {
       "velocity_x": "0",
       "x": "0",

@@ -16,15 +16,15 @@
     "pattern_type": "A"
   },
   {
-    "life_at": "4000",
+    "life_at": "750",
     "pattern_type": "B"
   },
   {
-    "life_at": "3000",
+    "life_at": "500",
     "pattern_type": "C"
   },
   {
-    "life_at": "2000",
+    "life_at": "300",
     "pattern_type": "D"
   }
 ]

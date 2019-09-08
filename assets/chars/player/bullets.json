@@ -1,9 +1,9 @@
 {
-"bullet":
+"bullets":
 [
   {
     "name": "My Bullet",
-    "damage": "7",
+    "damage": "1",
     "sound OPTIONAL": {
       "channel": "-1",
       "path": "sounds/shoot.ogg"
@@ -20,10 +20,10 @@
     ],
     "hitboxes": [
       {
-        "x": "-10",
-        "y": "-3",
-        "width": "20",
-        "height": "6",
+        "x": "-16",
+        "y": "-4",
+        "width": "32",
+        "height": "8",
         "angle": "0"
       }
     ]
